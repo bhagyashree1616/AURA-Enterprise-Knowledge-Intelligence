@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node scripts/verify.js && vite build"
+    "test": "node scripts/verify.js && node scripts/test-interactions.js && vite build"
   },
   "dependencies": {},
   "devDependencies": {
